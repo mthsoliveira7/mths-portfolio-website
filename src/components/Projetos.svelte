@@ -28,7 +28,7 @@
     </a>
     e
     <a
-      href="https://github.com/mthsoliveira7/website-portfolio"
+      href="https://github.com/mthsoliveira7/mths-portfolio-website"
       class="text-white font-medium inline-flex items-center hover:text-color-primary transition-all duration-300 group"
       target="_blank"
     >
