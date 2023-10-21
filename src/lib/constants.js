@@ -1,3 +1,4 @@
+import IcRoundEmail from "~icons/ic/round-email";
 import MdiLinkedin from "~icons/mdi/linkedin";
 import MdiGithub from "~icons/mdi/github";
 import PhFigmaLogo from "~icons/ph/figma-logo";
@@ -21,6 +22,11 @@ export const NAV_LINKS = [
 ];
 
 export const REDES_SOCIAIS = [
+  {
+    nome: "Email",
+    icone: IcRoundEmail,
+    link: "mailto:mthsoliveira7@skiff.com",
+  },
   {
     nome: "LinkedIn",
     icone: MdiLinkedin,
