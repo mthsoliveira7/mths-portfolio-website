@@ -1,38 +1,41 @@
-# create-svelte
+<h1 align="center">
+Meu portfólio - v1
+</h1>
+<p align="center">
+https://mths-portfolio-website.pages.dev/
+</p>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+![screenshot01](/static/screenshot01.png)
+![screenshot02](/static/screenshot02.png)
+![screenshot03](/static/screenshot03.png)
 
-## Creating a project
+<p align="center">Primeira versão do meu portfólio, feita inteiramente por mim.</p>
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Stack Usado
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- [Svelte](https://svelte.dev/) - Biblioteca JavaScript que compila componentes para código JavaScript altamente otimizado
+- [Tailwind CSS](https://tailwindcss.com) - Framework de CSS orientado por utilitários para desenvolvimento rápido de interfaces de usuário
+- [unplugin-icons](https://github.com/unplugin/unplugin-icons) - Plugin que permite usar qualquer pacote de ícones em seu projeto
+- [Cloudflare](https://pages.cloudflare.com) - Plataforma para a implantação e hospedagem de sites estáticos e aplicações Jamstack.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+## Rodar localmente
 
 ```bash
-npm run build
+$ git clone https://github.com/mthsoliveira7/mths-portfolio-website.git
+$ cd mths-portfolio-website
+$ npm install
+$ npm run dev
 ```
 
-You can preview the production build with `npm run preview`.
+## Figma
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Se estiver procurando pelo design do Figma, você pode encontrá-lo **[aqui](https://media.tenor.com/CmcVmK0EC0kAAAAC/coming-soon-em-breve.gif)**.
+
+## Autor
+
+- Matheus Oliveira
+- [Meu portfólio](https://mths-portfolio-website.pages.dev/) — [Meus links](https://linksta.cc/@mthsoliveira7)
+
+## Licença
+
+Licenciado sob a [licença MIT](https://github.com/mthsoliveira7/mths-portfolio-website/blob/master/LICENSE).
